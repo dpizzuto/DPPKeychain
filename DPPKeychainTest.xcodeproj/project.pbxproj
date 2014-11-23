@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A76CFA611A222EB60057B075 /* DPPKeychainItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A76CFA5C1A222EB60057B075 /* DPPKeychainItem.m */; };
+		A76CFA621A222EB60057B075 /* DPPKeychainManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A76CFA5E1A222EB60057B075 /* DPPKeychainManager.m */; };
+		A76CFA631A222EB60057B075 /* DPPTouchIdManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A76CFA601A222EB60057B075 /* DPPTouchIdManager.m */; };
 		A774F1671A22278500184E78 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A774F1661A22278500184E78 /* main.m */; };
 		A774F16A1A22278500184E78 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A774F1691A22278500184E78 /* AppDelegate.m */; };
 		A774F16D1A22278500184E78 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A774F16C1A22278500184E78 /* ViewController.m */; };
@@ -14,9 +17,6 @@
 		A774F1721A22278500184E78 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A774F1711A22278500184E78 /* Images.xcassets */; };
 		A774F1751A22278500184E78 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A774F1731A22278500184E78 /* LaunchScreen.xib */; };
 		A774F1811A22278500184E78 /* DPPKeychainTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A774F1801A22278500184E78 /* DPPKeychainTestTests.m */; };
-		A774F1901A2227C200184E78 /* DPPKeychainItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A774F18B1A2227C200184E78 /* DPPKeychainItem.m */; };
-		A774F1911A2227C200184E78 /* DPPKeychainManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A774F18D1A2227C200184E78 /* DPPKeychainManager.m */; };
-		A774F1921A2227C200184E78 /* DPPTouchIdManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A774F18F1A2227C200184E78 /* DPPTouchIdManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +30,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A76CFA5B1A222EB60057B075 /* DPPKeychainItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPPKeychainItem.h; sourceTree = "<group>"; };
+		A76CFA5C1A222EB60057B075 /* DPPKeychainItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPPKeychainItem.m; sourceTree = "<group>"; };
+		A76CFA5D1A222EB60057B075 /* DPPKeychainManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPPKeychainManager.h; sourceTree = "<group>"; };
+		A76CFA5E1A222EB60057B075 /* DPPKeychainManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPPKeychainManager.m; sourceTree = "<group>"; };
+		A76CFA5F1A222EB60057B075 /* DPPTouchIdManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPPTouchIdManager.h; sourceTree = "<group>"; };
+		A76CFA601A222EB60057B075 /* DPPTouchIdManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPPTouchIdManager.m; sourceTree = "<group>"; };
 		A774F1611A22278500184E78 /* DPPKeychainTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DPPKeychainTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A774F1651A22278500184E78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A774F1661A22278500184E78 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -43,12 +49,6 @@
 		A774F17A1A22278500184E78 /* DPPKeychainTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DPPKeychainTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A774F17F1A22278500184E78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A774F1801A22278500184E78 /* DPPKeychainTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPPKeychainTestTests.m; sourceTree = "<group>"; };
-		A774F18A1A2227C200184E78 /* DPPKeychainItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPPKeychainItem.h; sourceTree = "<group>"; };
-		A774F18B1A2227C200184E78 /* DPPKeychainItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPPKeychainItem.m; sourceTree = "<group>"; };
-		A774F18C1A2227C200184E78 /* DPPKeychainManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPPKeychainManager.h; sourceTree = "<group>"; };
-		A774F18D1A2227C200184E78 /* DPPKeychainManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPPKeychainManager.m; sourceTree = "<group>"; };
-		A774F18E1A2227C200184E78 /* DPPTouchIdManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPPTouchIdManager.h; sourceTree = "<group>"; };
-		A774F18F1A2227C200184E78 /* DPPTouchIdManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPPTouchIdManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +69,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A76CFA5A1A222EB60057B075 /* DPPKeychain */ = {
+			isa = PBXGroup;
+			children = (
+				A76CFA5B1A222EB60057B075 /* DPPKeychainItem.h */,
+				A76CFA5C1A222EB60057B075 /* DPPKeychainItem.m */,
+				A76CFA5D1A222EB60057B075 /* DPPKeychainManager.h */,
+				A76CFA5E1A222EB60057B075 /* DPPKeychainManager.m */,
+				A76CFA5F1A222EB60057B075 /* DPPTouchIdManager.h */,
+				A76CFA601A222EB60057B075 /* DPPTouchIdManager.m */,
+			);
+			path = DPPKeychain;
+			sourceTree = "<group>";
+		};
 		A774F1581A22278500184E78 = {
 			isa = PBXGroup;
 			children = (
@@ -93,7 +106,7 @@
 				A774F1681A22278500184E78 /* AppDelegate.h */,
 				A774F1691A22278500184E78 /* AppDelegate.m */,
 				A774F16B1A22278500184E78 /* ViewController.h */,
-				A774F1931A2227CA00184E78 /* DPPKeychain */,
+				A76CFA5A1A222EB60057B075 /* DPPKeychain */,
 				A774F16C1A22278500184E78 /* ViewController.m */,
 				A774F16E1A22278500184E78 /* Main.storyboard */,
 				A774F1711A22278500184E78 /* Images.xcassets */,
@@ -127,19 +140,6 @@
 				A774F17F1A22278500184E78 /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		A774F1931A2227CA00184E78 /* DPPKeychain */ = {
-			isa = PBXGroup;
-			children = (
-				A774F18A1A2227C200184E78 /* DPPKeychainItem.h */,
-				A774F18B1A2227C200184E78 /* DPPKeychainItem.m */,
-				A774F18C1A2227C200184E78 /* DPPKeychainManager.h */,
-				A774F18D1A2227C200184E78 /* DPPKeychainManager.m */,
-				A774F18E1A2227C200184E78 /* DPPTouchIdManager.h */,
-				A774F18F1A2227C200184E78 /* DPPTouchIdManager.m */,
-			);
-			name = DPPKeychain;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,10 +244,10 @@
 			files = (
 				A774F16D1A22278500184E78 /* ViewController.m in Sources */,
 				A774F16A1A22278500184E78 /* AppDelegate.m in Sources */,
-				A774F1911A2227C200184E78 /* DPPKeychainManager.m in Sources */,
+				A76CFA621A222EB60057B075 /* DPPKeychainManager.m in Sources */,
 				A774F1671A22278500184E78 /* main.m in Sources */,
-				A774F1901A2227C200184E78 /* DPPKeychainItem.m in Sources */,
-				A774F1921A2227C200184E78 /* DPPTouchIdManager.m in Sources */,
+				A76CFA611A222EB60057B075 /* DPPKeychainItem.m in Sources */,
+				A76CFA631A222EB60057B075 /* DPPTouchIdManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +438,7 @@
 				A774F1861A22278500184E78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A774F1871A22278500184E78 /* Build configuration list for PBXNativeTarget "DPPKeychainTestTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +447,7 @@
 				A774F1891A22278500184E78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
