@@ -100,7 +100,7 @@ If you want to delete the informations saved, you can do:
     }];
 ```
 
-ToDO
+ToDo
 ====
 - Strong error management
 - Single class for manage both DPPKeychainManager and DPPTouchIdManager
