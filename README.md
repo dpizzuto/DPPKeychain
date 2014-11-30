@@ -95,7 +95,7 @@ If you want to delete the informations saved, you can do:
             NSLog(@"All ok");
         }
         else{
-            NSLog(@"Some errors found");
+            NSLog(@"Some errors found: %@",error);
         }
     }];
 ```
