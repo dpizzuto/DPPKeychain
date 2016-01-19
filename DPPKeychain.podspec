@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = "DPPKeychain"
   s.version      = "0.0.1"
-  s.summary      = "DPPKeychain contains a series of classes used for manage easily the iOS keychain and TouchID auth."
+  s.summary      = "Classes for easy touchID and Keychain management."
   s.description  = <<-DESC
 		DPPKeychain contains a series of classes used for manage easily the iOS keychain and TouchID auth. The classes are:
 			- DPPKeychainManager, a wrapper for basic operation with iOS keychain (save, retrieve, update, delete).
