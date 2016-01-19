@@ -38,7 +38,8 @@ How to use
 ###Save operation
 Suppose you want to add support for touchID on your application and/or store the login and password of your application with iOS keychain.
 You can use DPPTouchIdManager for authenticate user with fingerprint and DPPKeychainManager for saving operation:
-```
+```objective-c
+    DPPKeychainManager *kcManager = [[DPPKeychainManager alloc] init];
     DPPKeychainItem *kcItem = [[DPPKeychainItem alloc]initWithService:@"MyServiceName" username:@"dpizzuto" password:@"myAw3s0M3pa77W0rD" description:@"My awesome Service" syncType:KCSyncTypeiCloud accessibility:KCAccessibilityAlways passwordType:KCPasswordTypeGeneric];
     
     [[DPPTouchIdManager sharedInstance]authenticateByTouchId:@"Would you use touchID ?" withCompletion:^(BOOL flag, NSError *error) {
@@ -59,7 +60,7 @@ You can use DPPTouchIdManager for authenticate user with fingerprint and DPPKeyc
 
 ###Retrieve operation
 If you would to retrieve auth information from keychain, you could use following method:
-```
+```objective-c
 	[kcManager retrieveDPPKeychainItem:@"MyServiceName" kcSyncType:KCSyncTypeiCloud kcAccessibilityType:KCAccessibilityAlways kcPasswordType:KCPasswordTypeGeneric completion:^(NSString *username, NSString *password) {
 		NSLog(@"Username: %@",username);
 		NSLog(@"Password: %@",password);
@@ -70,7 +71,7 @@ You can also encapsulate this method within the method for auth by TouchId so, t
 
 ###Update operation
 You could update the information in the following way:
-```
+```objective-c
     DPPKeychainItem *kcItem = [[DPPKeychainItem alloc]initWithService:@"DPPKeychain" username:@"pizzuto.dario" password:@"test" description:@"my service" syncType:KCSyncTypeiCloud accessibility:KCAccessibilityAlways passwordType:KCPasswordTypeGeneric];
     
     DPPKeychainItem *kcItemnew = [[DPPKeychainItem alloc]initWithService:@"DPPKeychain" username:@"dpizzuto" password:@"testnew" description:@"My service" syncType:KCSyncTypeiCloud accessibility:KCAccessibilityAlways passwordType:KCPasswordTypeGeneric];
@@ -89,7 +90,7 @@ You have to configure the first item for retrieving the information and the seco
 
 ###Delete operation
 If you want to delete the informations saved, you can do:
-```
+```objective-c
     [kcManager deleteDPPKeychainItem:@"DPPKeychain" kcSyncType:KCSyncTypeiCloud kcAccessibilityType:KCAccessibilityAlways kcPasswordType:KCPasswordTypeGeneric completion:^(NSError *error) {
         if(!error){
             NSLog(@"All ok");
