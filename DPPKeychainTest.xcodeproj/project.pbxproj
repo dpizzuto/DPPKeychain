@@ -30,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B9718E61C4E509A00028653 /* DPPKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPPKeychain.h; sourceTree = "<group>"; };
 		A76CFA5B1A222EB60057B075 /* DPPKeychainItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPPKeychainItem.h; sourceTree = "<group>"; };
 		A76CFA5C1A222EB60057B075 /* DPPKeychainItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPPKeychainItem.m; sourceTree = "<group>"; };
 		A76CFA5D1A222EB60057B075 /* DPPKeychainManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPPKeychainManager.h; sourceTree = "<group>"; };
@@ -78,6 +79,7 @@
 				A76CFA5E1A222EB60057B075 /* DPPKeychainManager.m */,
 				A76CFA5F1A222EB60057B075 /* DPPTouchIdManager.h */,
 				A76CFA601A222EB60057B075 /* DPPTouchIdManager.m */,
+				5B9718E61C4E509A00028653 /* DPPKeychain.h */,
 			);
 			path = DPPKeychain;
 			sourceTree = "<group>";
