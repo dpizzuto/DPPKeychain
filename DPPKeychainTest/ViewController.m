@@ -7,9 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "DPPKeychainManager.h"
-#import "DPPTouchIdManager.h"
-#import "DPPKeychainItem.h"
+#import "DPPKeychain.h"
 
 @interface ViewController ()
 
